@@ -6,7 +6,7 @@ import { HybridSetMapDefinition } from "./hybrid-set-map_definition.ts";
  * @template K - Typ kluczy w HybridSetMap.
  * @template V - Typ wartości w HybridSetMap. Domyślnie undefined.
  */
-class HybridSetMap<K, V = undefined> implements HybridSetMapDefinition<K, V> {
+export class HybridSetMap<K, V = undefined> implements HybridSetMapDefinition<K, V> {
     private key: Set<K>;
     private map?: Map<K, V>;
     private isV: boolean;
