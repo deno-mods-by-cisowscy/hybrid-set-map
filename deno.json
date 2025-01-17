@@ -1,0 +1,5 @@
+{
+  "name": "@deno-mods-by-cisowscy/hybrid-set-map",
+  "version": "0.0.1-alpha",
+  "exports": "./mod.ts"
+}
